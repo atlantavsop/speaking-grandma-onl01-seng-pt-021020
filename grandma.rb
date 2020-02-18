@@ -1,3 +1,4 @@
+require 'pry'
 # Write a speak_to_grandma method.
 
 # Whatever you say to grandma, she should respond with
@@ -14,6 +15,7 @@
 
 def speak_to_grandma(phrase)
   if phrase == 'I LOVE YOU GRANDMA!'
+    binding.pry
     'I LOVE YOU TOO PUMPKIN!'
   elseif phrase != phrase.upcase
     'HUH?! SPEAK UP, SONNY!'
